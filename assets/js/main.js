@@ -50,7 +50,13 @@
 		// Scrolly.
 			$window.load(function() {
 
-				var x = parseInt($('.wrapper').first().css('padding-top')) - 25;
+				var x = 0;
+				if(window.innerWidth < 360)
+					x = parseInt($('.wrapper').first().css('padding-top')) + 50;
+				else if(window.innerWidth < 380)
+					x = parseInt($('.wrapper').first().css('padding-top')) + 20;
+				else
+					x = parseInt($('.wrapper').first().css('padding-top')) - 30;
 
 				$('#nav a, .scrolly').scrolly({
 					speed: 1000,
