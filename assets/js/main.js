@@ -50,11 +50,17 @@
 		// Scrolly.
 			$window.load(function() {
 
-				var x = 0;
-				if(window.innerWidth < 360)
-					x = parseInt($('.wrapper').first().css('padding-top')) + 50;
-				else if(window.innerWidth < 380)
-					x = parseInt($('.wrapper').first().css('padding-top')) + 20;
+			    var x = 0;
+                if(window.innerWidth < 360)
+                    x = parseInt($('.wrapper').first().css('padding-top')) + 50;
+                else if (window.innerWidth < 380)
+                    x = parseInt($('.wrapper').first().css('padding-top')) + 20;
+                /*
+                else if (window.innerWidth < 668)
+				    x = parseInt($('.wrapper').first().css('padding-top')) + 30;
+				else if (window.innerWidth < 1026)
+				    x = parseInt($('.wrapper').first().css('padding-top')) + 30;
+                */
 				else
 					x = parseInt($('.wrapper').first().css('padding-top')) - 30;
 
