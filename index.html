@@ -38,15 +38,15 @@
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#resume">Resume</a></li>
-            <li><a href="#availability">Availability</a></li>
+            <li style="display: none;"><a href="#availability">Availability</a></li>
             <li><a href="#contact">Contact</a></li>
-            <!--<li><label>905 781 9951 | eviralpatel at yahoo.ca</label></li>-->
+            <li style="display: none;"><label>905 781 9951 | eviralpatel at yahoo.ca</label></li>
         </ul>
     </nav>
 
     <!-- Home -->
     <div class="wrapper style1 first">
-        <article class="container" id="home">
+        <article class="container"><span id="home"></span>
             <div class="row">
                 <div class="4u 12u(mobile)" style="text-align: center;">
                     <img src="images/logo/html5jQueryBootstrap.png" />
@@ -67,7 +67,7 @@
 
     <!-- About -->
     <div class="wrapper style2">
-        <article id="about">
+        <article><span id="about"></span>
             <header class="container">
                 <h2>Here's all I do.</h2>
                     <p>
@@ -119,7 +119,7 @@
 
     <!-- Skills -->
     <div class="wrapper style3">
-        <article id="skills">
+        <article><span id="skills"></span>
             <header class="container">
                 <h2>My skill set</h2>
                 <p><strong>One stop shop</strong> for Microsoft web technologies.</p>
@@ -192,7 +192,7 @@
 
     <!-- Resume -->
     <div class="wrapper style2">
-        <article id="resume">
+        <article><span id="resume"></span>
             <header class="container">
                 <h2>My resume</h2>
                 <p>Professional experience</p>
@@ -306,17 +306,18 @@
                 <a href="assets/docs/Viral_Patel_Resume.doc" class="button big" target="_blank">Download resume</a>
                 <br />
                 <br />
-                <a href="#availability" class="button big scrolly">See my availability</a>
+                <a href="#contact" class="button big scrolly">Contact me</a>
             </footer>
         </article>
     </div>
 
-    <!-- Availability -->
+    <!-- Contact -->
     <div class="wrapper style2">
-        <article id="availability">
+        <article><span id="contact"></span>
             <header class="container">
-                <h2>My availability</h2>
-                <p>I am <strong>always available</strong> to work on fixed price contract. Please take a look at <a href="assets/docs/Viral_Patel_Services.pdf" target="_blank" style="font-weight: bold;">services</a> I can provide.</p>
+                <h2>Contact me</h2>
+                <p>Let me help you out build & maintain robust web & mobile applications.</p>
+                <br /><p>I am <strong>always available</strong> to work on fixed price contract. Please take a look at <a href="assets/docs/Viral_Patel_Services.pdf" target="_blank" style="font-weight: bold;">services</a> I can provide.</p>
             </header>
             <div class="container" style="display: none;">
                 <div class="row">
@@ -328,20 +329,12 @@
                     </div>
                 </div>
             </div>
-            <footer>
-                <p></p>
-                <a href="#contact" class="button big scrolly">Get in touch with me</a>
-            </footer>
+            <footer></footer>
         </article>
     </div>
 
-    <!-- Contact -->
     <div class="wrapper style4">
-        <article id="contact" class="container">
-            <header>
-                <h2>Let me help you out</h2>
-                <p>Build & maintain robust web & mobile applications.</p>
-            </header>
+        <article id="footer" class="container">
             <div>
                 <div class="row">
                     <div class="4u 12u(mobile)">
@@ -357,7 +350,7 @@
                         <br /><a href="http://www.ViralPatel.ca" target="_blank" style="text-decoration: none; color: #ffffff;">ViralPatel.ca</a>
                     </div>
                 </div>
-
+                <br />
                 <div class="row">
                     <div class="12u">
                         <hr />
@@ -393,6 +386,18 @@
                     <li>&copy; Viral Patel</li>
                     <li>All rights reserved</li>
                 </ul>
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
             </footer>
         </article>
     </div>

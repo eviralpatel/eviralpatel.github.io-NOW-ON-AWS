@@ -1166,7 +1166,7 @@
 	hr {
 		border: 0;
 		border-top: solid 1px #ffffff;
-		border-top-color: rgba(255, 255, 255, 0.35);
+		border-top-color: rgba(255, 255, 255, 0.6);
 		box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
 		height: 1px;
 		margin: 1em 0 2em 0;
@@ -1916,6 +1916,16 @@
 						margin-left: 0;
 					}
 
+                    
+		/* custom */
+            article {
+                position: relative;
+            }
+            article span {
+                position: absolute;
+                top: -110px;
+            }
+
 	}
 
 /* Tablet */
@@ -1965,7 +1975,15 @@
 				font-size: 1.5em;
 				line-height: 1.6em;
 			}
-
+            
+		/* custom */
+            article {
+                position: relative;
+            }
+            article span {
+                position: absolute;
+                top: -92px;
+            }
 	}
 
 /* Mobile */
@@ -2127,7 +2145,15 @@
 				#copyright li {
 					display: block;
 				}
-
+                
+		/* custom */
+            article {
+                position: relative;
+            }
+            article span {
+                position: absolute;
+                top: -60px;
+            }
 	}
 
     .ShowHideLink{
