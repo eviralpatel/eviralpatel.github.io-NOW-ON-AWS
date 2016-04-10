@@ -1812,7 +1812,7 @@
 			}
             
 				.box.style1 {
-					padding: 1em 2em 1em 2em;
+					padding: 1em 2em 1em 2.5em;
 				}
 
 				.box.style2 {
@@ -1961,6 +1961,11 @@
 				margin: 0;
 			}
 
+			#home p {
+				font-size: 1.5em;
+				line-height: 1.6em;
+			}
+
 	}
 
 /* Mobile */
@@ -1989,16 +1994,16 @@
 				margin: 0 0 2em 0;
 			}
 
-				header > p {
-					font-size: 1.25em;
-				}
+			    header > p {
+				    font-size: 1.1em;
+			    }
 
 			footer {
 				margin: 2.5em 0 0 0;
 			}
 
 				footer > p {
-					font-size: 1.25em;
+					font-size: 1.1em;
 				}
 
 			hr {
@@ -2058,7 +2063,7 @@
 		/* Box */
 
 			.box {
-				padding: 30px 20px 30px 20px;
+				padding: 30px 20px 30px 35px;
 				margin: 0 0 20px 0 !important;
 			}
 
@@ -2101,6 +2106,11 @@
 				width: 70%;
 				height: auto;
 				margin: 0 auto 1.75em auto;
+			}
+            
+			#home p {
+				font-size: 1.1em;
+				line-height: 1.5em;
 			}
 
 			#contact footer {
