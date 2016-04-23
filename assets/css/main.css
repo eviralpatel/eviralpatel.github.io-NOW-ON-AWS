@@ -1648,7 +1648,7 @@
 
 /* Nav */
 
-	#nav {
+	.vnavbar {
 		background-color: #282828;
 		text-align: center;
 		position: fixed;
@@ -1657,23 +1657,24 @@
 		width: 100%;
 		z-index: 10000;
 		cursor: default;
+        padding: 4px 0px 4px 0px;
 	}
     
-		#nav ul {
+		.vnavbar ul {
 			margin-bottom: 0;
 		}
 
-		#nav label {
+		.vnavbar label {
 			color: #ffffff;
             position: relative;
             top: 1px;
 		}
 
-		#nav li {
+		.vnavbar li {
 			display: inline-block;
 		}
 
-		#nav a {
+		.vnavbar a {
 			position: relative;
 			display: block;
 			color: #fff;
@@ -1681,11 +1682,11 @@
 			outline: 0;
 		}
 
-			#nav a:hover {
+			.vnavbar a:hover {
 				color: #fff !important;
 			}
 
-			#nav a.active:before {
+			.vnavbar a.active:before {
 				content: '';
 				display: block;
 				position: absolute;
@@ -1696,6 +1697,26 @@
 				border-right: solid 0.75em transparent;
 				border-top: solid 0.6em #282828;
 			}
+            
+        .nav > li > a
+        {
+            padding: 4px 8px 4px 8px;
+        }
+        
+			.vnavbar a, .vnavbar li {
+				-moz-transition: background-color .2s ease-in-out;
+				-webkit-transition: background-color .2s ease-in-out;
+				-ms-transition: background-color .2s ease-in-out;
+				transition: background-color .2s ease-in-out;
+				font-weight: 600;
+				border-radius: 8px;
+				color: #fff;
+			}
+                .vnavbar>.nav>li.active, .nav>li>a:hover
+                {
+					background: #909090;
+                }
+
 
 /* Articles */
 
@@ -1844,30 +1865,35 @@
 			}
 
 				.wrapper.first {
-					padding-top: 8em;
+					padding-top: 6em;
 				}
 
 		/* Nav */
 
-			#nav a {
+        .nav
+        {
+            padding: 8px;
+        }
+        
+        .nav > li > a
+        {
+            padding: 6px 22px 6px 22px;
+        }
+        
+			.vnavbar a, .vnavbar li {
 				-moz-transition: background-color .2s ease-in-out;
 				-webkit-transition: background-color .2s ease-in-out;
 				-ms-transition: background-color .2s ease-in-out;
 				transition: background-color .2s ease-in-out;
-				padding: 0.2em 0.8em 0.2em 0.8em;
-				margin: 0.6em 0.2em 0.6em 0.2em;
 				font-weight: 600;
 				border-radius: 8px;
 				color: #fff;
 			}
 
-				#nav a:hover {
-					background: #777;
-				}
-
-				#nav a:active {
-					background: #484848;
-				}
+                .vnavbar>.nav>li.active, .nav>li>a:hover
+                {
+					background: #909090;
+                }
 
 		/* Articles */
 
@@ -1962,6 +1988,9 @@
 					margin: 2em 0 0 0;
 					padding: 2em 0 0 0;
 				}
+
+		/* Nav */
+                
 
 		/* Articles */
 
@@ -2109,14 +2138,19 @@
 			}
 
 				.wrapper.first {
-					padding-top: 3em;
+					padding-top: 5em;
 				}
 
 		/* Nav */
 
-			#nav a {
+			.vnavbar a {
 				padding: 0.5em;
 			}
+            
+                .vnavbar>.nav>li, .nav>li>a
+                {
+					background-color: transparent;
+                }
 
 		/* Articles */
 
