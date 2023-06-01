@@ -110,7 +110,7 @@
 		}
 
 		.container {
-			width: 1200px;
+			width: 1430px;
 		}
 
 	}
@@ -1866,6 +1866,7 @@
 
 				.wrapper.first {
 					padding-top: 6em;
+					padding-bottom: 2em;
 				}
 
 		/* Nav */
@@ -1982,6 +1983,7 @@
 
 				.wrapper.first {
 					padding-top: 6em;
+					padding-bottom: 2em;
 				}
 
 				.wrapper.style4 .row-special {
@@ -2139,6 +2141,7 @@
 
 				.wrapper.first {
 					padding-top: 5em;
+					padding-bottom: 1.5em;
 				}
 
 		/* Nav */
